@@ -1,5 +1,7 @@
 Task: Create a very basic calculator application. Four basic operations is enough. What is nice to see is 1) separated ui and api; 2) some best coding and collaborative practices implemented; 3) tests.
 
+![Image description](https://raw.githubusercontent.com/PandasProperty/basic-calculator/master/screenshot.png)
+
 Solution:
 
 I have used in this little app react hooks, a bem approach for the style, and jst for testing my code. 
