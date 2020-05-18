@@ -1,0 +1,22 @@
+.basic-calculator {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    &__row {
+        display: flex;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

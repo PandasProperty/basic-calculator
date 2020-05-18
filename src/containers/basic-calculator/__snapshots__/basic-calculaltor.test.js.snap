@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic calculator Basic calculator should render with given state from Redux store 1`] = `
+<div
+  className="basic-calculator"
+>
+  <div
+    className="basic-calculator__container"
+  >
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--4"
+      >
+        <div
+          className="cell__content cell__content--input"
+          onClick={[Function]}
+        >
+          0
+        </div>
+      </div>
+    </div>
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--3"
+      >
+        <div
+          className="cell__content cell__content--reset"
+          onClick={[Function]}
+        >
+          C
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operator"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-percentage fa-w-12 "
+            data-icon="percentage"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 384 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M109.25 173.25c24.99-24.99 24.99-65.52 0-90.51-24.99-24.99-65.52-24.99-90.51 0-24.99 24.99-24.99 65.52 0 90.51 25 25 65.52 25 90.51 0zm256 165.49c-24.99-24.99-65.52-24.99-90.51 0-24.99 24.99-24.99 65.52 0 90.51 24.99 24.99 65.52 24.99 90.51 0 25-24.99 25-65.51 0-90.51zm-1.94-231.43l-22.62-22.62c-12.5-12.5-32.76-12.5-45.25 0L20.69 359.44c-12.5 12.5-12.5 32.76 0 45.25l22.62 22.62c12.5 12.5 32.76 12.5 45.25 0l274.75-274.75c12.5-12.49 12.5-32.75 0-45.25z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          7
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          8
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          9
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operator"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-times fa-w-11 "
+            data-icon="times"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 352 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          5
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          6
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operator"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-plus fa-w-14 "
+            data-icon="plus"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operator"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-minus fa-w-14 "
+            data-icon="minus"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="basic-calculator__row"
+    >
+      <div
+        className="cell__container cell__container--2"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          0
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operand"
+          onClick={[Function]}
+        >
+          .
+        </div>
+      </div>
+      <div
+        className="cell__container cell__container--1"
+      >
+        <div
+          className="cell__content cell__content--operator"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-equals fa-w-14 "
+            data-icon="equals"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 304H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32zm0-192H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
